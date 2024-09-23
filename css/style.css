@@ -47,7 +47,6 @@ html{
 
 .container{
     max-width: 60%;
-    /* width: 60%; */
     margin: 0 auto;
 }
 
@@ -230,14 +229,19 @@ html{
 
 .discord-correlated img{
     width: 20px;
-    padding-right: 2px;
+    margin-right: 5px;
 }
 
 .lang-select{
     display: flex;
     color: white;
     font-size:10px;
+    align-items: center;
+}
 
+.utf8-symbol{
+    font-size: 7px;
+    padding-left: 5px;
 }
 
 .discord-correlated h5{
